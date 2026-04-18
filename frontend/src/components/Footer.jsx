@@ -1,10 +1,13 @@
+
+
+
 import { motion } from "framer-motion";
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaXTwitter } from "react-icons/fa6";
+import logo from "../assets/anulipi.png";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-black text-white pt-20 pb-6 px-6 border-t border-gray-800">
-
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
 
         {/* 🏢 COMPANY */}
@@ -12,9 +15,12 @@ const Footer = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
         >
-          <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-            Anulipi
-          </h2>
+          {/* 🔥 LOGO INSTEAD OF TEXT */}
+          <img
+            src={logo}
+            alt="Anulipi Logo"
+            className="w-40 mb-4"
+          />
 
           <p className="text-gray-400 text-sm leading-relaxed">
             Delivering reliable IT hardware solutions including laptops, desktops,
@@ -127,7 +133,6 @@ const Footer = () => {
         </div>
 
       </div>
-
     </footer>
   );
 };

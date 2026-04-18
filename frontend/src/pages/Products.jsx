@@ -73,10 +73,8 @@ const Products = () => {
   return (
     <div className="w-full py-24 bg-black text-white px-6 relative overflow-hidden">
 
-      {/* BACKGROUND GLOW */}
       <div className="absolute w-[500px] h-[500px] bg-blue-600 blur-[120px] opacity-20 top-10 left-1/2 -translate-x-1/2" />
 
-      {/* TITLE */}
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 relative z-10">
         Latest <span className="text-blue-500">Products</span>
       </h2>
@@ -103,6 +101,11 @@ const Products = () => {
               whileHover={{ scale: 1.2, rotate: 3 }}
               transition={{ type: "spring", stiffness: 120 }}
             />
+
+            {/* ✅ NAME ADDED */}
+            <h3 className="text-center text-sm mt-3 font-semibold text-white">
+              {item.name}
+            </h3>
 
           </motion.div>
         ))}
@@ -133,11 +136,10 @@ const Products = () => {
                   src={img}
                   className="w-full h-32 object-contain mb-3"
                   whileHover={{ scale: 1.15 }}
-                  transition={{ duration: 0.3 }}
                 />
 
                 <h3 className="text-sm font-semibold text-center">
-                  {products[activeIndex].name} Series
+                  {products[activeIndex].name}
                 </h3>
 
                 <p className="text-xs text-gray-400 text-center mt-1">
