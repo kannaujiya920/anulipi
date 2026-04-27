@@ -38,7 +38,7 @@ const Footer = () => {
                 <span className="text-white">lipi</span>
               </h1>
               <p className="text-[10px] uppercase font-bold tracking-[0.3em] text-blue-500/80 -mt-1">
-                Technology at its Best
+                Technologies
               </p>
             </div>
 
@@ -111,7 +111,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-4 group cursor-pointer">
                 <span className="text-blue-600">📧</span>
-                <p className="text-gray-400 group-hover:text-white transition-colors">anuulipi@gmail.com</p>
+                <p className="text-gray-400 group-hover:text-white transition-colors">suport@anulipi.com</p>
               </div>
               <div className="flex gap-4 group cursor-pointer">
                 <span className="text-blue-600">📞</span>
@@ -125,7 +125,7 @@ const Footer = () => {
         {/* 📋 COPYRIGHT BAR */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-xs text-center md:text-left">
-            © {new Date().getFullYear()} <span className="text-gray-300 font-bold">Anulipi Technology Pvt Ltd</span>. Lucknow.
+            © {new Date().getFullYear()} <span className="text-gray-300 font-bold">Anulipi Technologies</span>. Lucknow.
           </p>
           
           <div className="flex gap-6 text-[10px] uppercase font-bold tracking-widest text-gray-600">

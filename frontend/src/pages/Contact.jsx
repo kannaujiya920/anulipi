@@ -59,7 +59,7 @@ const Contact = () => {
               <FaHeadset size={20} />
             </div>
             <p className="text-[10px] font-black uppercase text-gray-400 tracking-widest mb-1">Technical Support</p>
-            <p className="text-xl font-black uppercase tracking-tighter text-sm md:text-base"> suport@anulipi.com</p>
+            <p className="text-xl font-black tracking-tighter text-sm md:text-base"> suport@anulipi.com</p>
           </div>
 
           <div className="bg-white p-8 rounded-[2.5rem] border border-gray-200 shadow-sm flex flex-col items-center text-center group hover:border-emerald-400 transition-all duration-300">
@@ -67,7 +67,7 @@ const Contact = () => {
               <FaEnvelope size={20} />
             </div>
             <p className="text-[10px] font-black uppercase text-gray-400 tracking-widest mb-1">Sales Inquiry</p>
-            <p className="text-xl font-black uppercase tracking-tighter text-sm md:text-base">sales@anulipi.com</p>
+            <p className="text-xl font-black  tracking-tighter text-sm md:text-base">sales@anulipi.com</p>
           </div>
         </div>
 
@@ -133,7 +133,7 @@ const Contact = () => {
                 <FaMapMarkerAlt size={24} />
               </div>
               <div>
-                <h4 className="font-black text-xl mb-1 text-blue-400 uppercase tracking-tighter">Anulipi Technology</h4>
+                <h4 className="font-black text-xl mb-1 text-blue-400 uppercase tracking-tighter">Anulipi Technologies</h4>
                 <p className="text-gray-400 font-bold leading-relaxed">
                   C-187, Nirala Nagar, Lucknow, <br />Uttar Pradesh 226020
                 </p>

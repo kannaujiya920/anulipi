@@ -96,10 +96,7 @@ const About = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div>
-                    <p className="text-[10px] text-gray-500 font-bold uppercase">Status</p>
-                    <p className="text-md font-bold text-gray-900">Verified Partner</p>
-                  </div>
+                  
                 </div>
               </motion.div>
             </motion.div>
